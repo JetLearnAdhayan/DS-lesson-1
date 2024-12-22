@@ -52,3 +52,33 @@ print(even_array)
 
 odd_array = np.arange(1,101,2)
 print(odd_array)
+
+#print numbers in random order:
+random_arr = np.random.permutation(np.arange(1,11))
+print("Random Order(permutation):" ,random_arr)
+
+random_arr2 = np.random.randint(1,101)
+print(random_arr2)
+
+#prints random value from 0-1
+random_array = np.random.rand(1,20)
+print(random_array)
+
+random3 = np.arange(1,26).reshape(5,5)
+print(random3)
+
+random4 = np.arange(1,37).reshape(6,6)
+random5 = np.arange(1,37).reshape(2,18)
+random6 = np.arange(1,37).reshape(3,12)
+random7 = np.arange(1,37).reshape(4,9)
+print(random4)
+print(random5)
+print(random6)
+print(random7)
+
+random_arr3 = np.random.permutation(np.arange(1,21))
+print(random_arr3)
+
+#sort random numbers:
+sorted_array = np.sort(random_arr3)
+print(sorted_array)
